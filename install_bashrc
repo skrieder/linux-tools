@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cp -v bashrc .bashrc
+cp -v .bashrc ~/.bashrc
+echo "source ~/.bashrc"
+source ~/.bashrc
+echo "complete"
+exit
